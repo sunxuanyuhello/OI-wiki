@@ -44,7 +44,7 @@ for (vector<int>::iterator iter = data.begin(); iter != data.end(); iter++)
 
 不同的 [STL 容器](./container.md) 支持的迭代器类型不同，在使用时需要留意。
 
-指针满足随机访问迭代器的所有要求，可以当作随机访问迭代器使用。
+指针满足连续迭代器的所有要求，可以当作连续迭代器使用。
 
 ## 相关函数
 
